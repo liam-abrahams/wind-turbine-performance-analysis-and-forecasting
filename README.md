@@ -72,7 +72,7 @@ This project presents an analysis of wind turbine SCADA data, focusing on perfor
 
 ---
 
-## KPI Dashboard
+## Simple KPI Dashboard
 
 A consolidated KPI dashboard was developed to provide:
 
@@ -85,7 +85,16 @@ A consolidated KPI dashboard was developed to provide:
 ## Sample Visuals
 
 ![Power Residual Hexbins](visuals/Power_residual_heatmap.png)
+![Simple KPI Dashboard](visuals/Fleet_and_wind_turbine_KPIs.png)
 ![Gradient Boosting Power Forecast](visuals/Forecast_gradient_boosting_power_prediction_and_actual.png)
+
+## Key Analysis
+
+* Turbines tended to underperform at wind speeds above 10 m/s (rated region). This indicates inefficent performance
+* Power curves are not tight enough, need to consider: anemometer cleaning and calibration, upstream conditions
+* Fleet performance ratio is 0.72 but capacity factor is 0.30. Plant is relatively efficent but placed in a region with poor wind conditions
+* Availability (%) proxies tend to be low for an operational farm, primarily driven by high level of curtailment
+* Power and Wind Speed forecasting using Gradient Boosting is highly accurate and can implemented for yield forecasting
 
 ---
 
