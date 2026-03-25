@@ -85,7 +85,7 @@ A consolidated KPI dashboard was developed to provide:
 ## Sample Visuals
 
 ![Power Residual Hexbins](visuals/Power_residual_heatmap.png)
-![KPI Dashboard](visuals/Fleet_and_wind_turbine_KPIs.png)
+![Gradient Boosting Power Forecast](visuals/Forecast_gradient_boosting_power_prediction_and_actual.png)
 
 ---
 
